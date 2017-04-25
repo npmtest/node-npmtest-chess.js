@@ -1,4 +1,7 @@
-# test coverage for  [chess.js (v0.10.2)](https://github.com/jhlywa/chess.js)  [![npm package](https://img.shields.io/npm/v/npmtest-chess.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-chess.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-chess.js.svg)](https://travis-ci.org/npmtest/node-npmtest-chess.js)
+# npmtest-chess.js
+
+#### basic test coverage for  [chess.js (v0.10.2)](https://github.com/jhlywa/chess.js)  [![npm package](https://img.shields.io/npm/v/npmtest-chess.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-chess.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-chess.js.svg)](https://travis-ci.org/npmtest/node-npmtest-chess.js)
+
 #### A Javascript chess library for chess move generation/validation, piece placement/movement, and check/checkmate/draw detection
 
 [![NPM](https://nodei.co/npm/chess.js.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/chess.js)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-chess.js/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-chess.js/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-chess.js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-chess.js/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-chess.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-chess.js/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-chess.js/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-chess.js/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-chess.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-chess.js/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-chess.js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-chess.js/build/coverage.html/index.html)
 
@@ -83,7 +86,8 @@
         "minify": "uglifyjs chess.js -c -m --comments 'license' > chess.min.js",
         "test": "mocha"
     },
-    "version": "0.10.2"
+    "version": "0.10.2",
+    "bin": {}
 }
 ```
 
